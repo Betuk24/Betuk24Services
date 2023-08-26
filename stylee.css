@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  }
+
+  .navbar 
+  {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nav-logo
+  {
+    height: 50px;
+    width: 200px;
+  }
+
+  .logo
+  {
+    background-image: url("services.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+  }
+
+  .border
+  {
+    border: 3px solid transparent;
+  }
+  .border:hover
+  {
+    border: 3px solid purple;
+  } 
+   
+  /**box2..**/
+  .add-first
+  {
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+  }
+  .add-second
+  {
+    color: white;
+    margin-left: 3px;
+  }
+  .add-icon
+  {
+    display: flex;
+    align-items: center;
+  }
+
+  /**box3..**/
+  .nav-search
+  {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lavender;
+    width: 640px;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .search-select
+  {
+    background-color:lavender;
+    width: 50px;
+    text-align: center; 
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+  }
+  .search-input
+  {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+  }
+  .search-icon
+  {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    font-size: 1.2rem;
+
+  }
+  
+
+  /**box4...**/
+
+  span
+{
+    font-size: 0.7rem;
+
+}
+.nav-second
+{
+    font-size: 0.85rem;
+    font-weight: 700
+}
+.nav-langauge
+{
+  font-size: 0.85rem;
+  display:flex;
+  align-items: center;
+}
+.nav-langauge i
+{
+  font-size: 30px;
+}
+.langauge-select
+{
+  background-color: lavender;
+}
+
+/** nav-cart**/
+
+.nav-cart i
+{
+  font-size: 30px;
+}
+.nav-cart
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**pannel**/
+
+.pannel
+{
+  height: 40px;
+  display: flex;
+  color: white;
+  background-color: #222f3d;
+  align-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pannel-ops p
+{
+  display: inline;
+  margin-left: 15px;
+}
+.pannel-ops
+{
+   width: 70%;
+   font-size: 0.9rem;
+   
+}
+.pannel-deals
+{
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/**hero section**/
+
+.hero-section
+{
+  background-image: url("hero_image.jpg");
+  background-size: cover;
+  height:350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+.hero-msg
+{
+  background-color: lavender;
+  color: black;
+  height:30px;
+  font-size: 0.85rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 25px;
+
+}
+.hero-section a
+{
+  color: #007185;
+}
+
+/**shop section**/
+.shop-section
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: lavender;
+}
+.box
+{ 
+  height: 420px;
+  width: 23%;
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px 0px 15px;
+  
+}
+
+.box-img
+{
+  height: 350px;
+  background-size: cover;
+  margin-top: .85rem;
+  margin-bottom: .85rem;
+}
+.box-content
+{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box-content p 
+{
+  color:#007185 ;
+}
+
+/** footer..**/
+
+footer{
+  margin-top: 20px;
+}
+.foot-pannel
+{
+  background-color: #37475a;;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .085rem;
+}
+button
+{
+  background-color: lavender;
+  height: 30px;
+ 
+}
+.foot-pannel2
+{
+  display: flex;
+  background-color: #222f3d;
+  color: white;
+  justify-content: space-evenly;
+  height: 300px;
+}
+ul a
+{
+  display:block;
+  margin-top: 10px;
+  font-size: .85rem;
+  color: #dddddd;
+}
+ul p
+{
+  margin-top: 20px;
+  font-weight: 700;
+}
+.foot-pannel3
+{ 
+  height: 70px;
+  background-color: #222f3d;
+  border-top: 0.3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo
+{
+  background-image: url("services.png");
+  background-size: cover;
+  height: 50px;
+  width:200px; 
+}
+.social
+{
+  margin-left: 30px;
+}
+.qwe
+{
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.foot-pannel4
+{
+  background-color:#0f1111;
+  color: #dddddd;
+  font-size: .7rem;
+  height: 80px;
+  text-align: center;
+}
+
+.pages
+{
+  padding-top: 25px;
+}
+
+.copyright
+{
+  padding-top:5px;
+}
